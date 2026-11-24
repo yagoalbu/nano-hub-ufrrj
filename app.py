@@ -29,6 +29,13 @@ header[data-testid="stHeader"] {
     display: none !important;
 }
 
+/* Força esquema de cores claro e legibilidade dos inputs */
+:root { color-scheme: light !important; }
+.stApp p, .stApp label, .stApp span, .stApp li { color: #172B3A; }
+[data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label { color: #F5FAFD !important; }
+.nano-hero h1, .nano-hero p { color: #FFFFFF !important; }
+.nano-hero .section-kicker { color: #F28C00 !important; }
+
 :root { --nano-blue:#0879A8; --nano-blue-dark:#075477; --nano-orange:#F28C00; --nano-ink:#172B3A; }
 html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
 .stApp { background:#F4F7FA; color:var(--nano-ink); }
