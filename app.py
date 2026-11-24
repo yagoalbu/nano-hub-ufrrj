@@ -31,10 +31,6 @@ header[data-testid="stHeader"] {
 
 /* Força esquema de cores claro e legibilidade dos inputs */
 :root { color-scheme: light !important; }
-.stApp p, .stApp label, .stApp span, .stApp li { color: #172B3A; }
-[data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label { color: #F5FAFD !important; }
-.nano-hero h1, .nano-hero p { color: #FFFFFF !important; }
-.nano-hero .section-kicker { color: #F28C00 !important; }
 
 :root { --nano-blue:#0879A8; --nano-blue-dark:#075477; --nano-orange:#F28C00; --nano-ink:#172B3A; }
 html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
@@ -116,8 +112,8 @@ div[data-testid="stMetricValue"] { color:#075477; }
 .stButton > button { border-radius:9px; }
 [data-testid="stTabs"] button[aria-selected="true"] { color:#0879A8; border-bottom-color:#F28C00; }
 .nano-hero { background:linear-gradient(115deg,#064D70 0%,#0879A8 72%,#1596B8 100%); color:white; padding:26px 30px; border-radius:18px; margin-bottom:22px; box-shadow:0 9px 26px rgba(7,84,119,.15); }
-.nano-hero h1 { color:white; margin:0; font-size:30px; }
-.nano-hero p { color:#D9EDF5; margin:6px 0 0 0; }
+.nano-hero h1 { color: #FFFFFF !important; margin:0; font-size:28px; }
+.nano-hero p { color: #D9EDF5 !important; margin:4px 0 0 0; font-size:0.95rem; }
 .section-kicker { color:#F28C00; text-transform:uppercase; font-size:11px; font-weight:800; letter-spacing:.13em; }
 .panel { background:white; border:1px solid #E2EAF0; border-radius:15px; padding:18px 20px; margin-bottom:12px; }
 .small-muted { color:#718596; font-size:13px; }
