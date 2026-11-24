@@ -19,6 +19,20 @@ st.markdown(
     """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Esconde a barra superior padrão do Streamlit */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    height: 0px !important;
+}
+#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] {
+    display: none !important;
+}
+
+:root { --nano-blue:#0879A8; --nano-blue-dark:#075477; --nano-orange:#F28C00; --nano-ink:#172B3A; }
+html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
+.stApp { background:#F4F7FA; color:var(--nano-ink); }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
 :root { --nano-blue:#0879A8; --nano-blue-dark:#075477; --nano-orange:#F28C00; --nano-ink:#172B3A; }
 html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
 .stApp { background:#F4F7FA; color:var(--nano-ink); }
